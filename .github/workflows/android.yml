@@ -1,0 +1,10 @@
+name: Android CI
+on:
+  workflow_dispatch:  # run manually from Actions tab
+
+jobs:
+  ok:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ready
+        run: echo "Android workflow is set up. Add your Android project before enabling builds."
