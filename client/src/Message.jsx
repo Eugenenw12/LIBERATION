@@ -1,5 +1,3 @@
-function Message() {
-  return <p>🚀 This message comes from a new component!</p>;
+export default function Message() {
+  return <p>🚀 This message is coming from the Message component!</p>;
 }
-
-export default Message;
